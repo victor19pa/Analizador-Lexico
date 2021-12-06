@@ -1,0 +1,15 @@
+x = "Casita"
+y = ""
+
+if x<>48 then {
+    imp("x no es igual a 48")
+}
+else{
+    imp("x es igual a 48")
+}
+
+for i=1 to 3 then {
+    y = y&x
+}   
+
+imp(y)
